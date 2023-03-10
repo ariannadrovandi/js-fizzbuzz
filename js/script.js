@@ -4,26 +4,9 @@ per i multipli di 5 stampi “Buzz”.
 Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.*/
 
 
-
-/*
-    <div class="square">
-        <div class="squarecontent">
-
-        </div>
-    </div>
-*/
-
 const numCells = 100;
 const chessboard = document.getElementById('chessboard');
 
-// for (let i = 1; i <= numCaselle; i++) {
-    
-//     chessboard.innerHTML += `<div class="square">
-//         <div class="squarecontent d-flex justify-content-center align-items-center ${lightBox}">
-//         ${i}
-//         </div>
-//     </div>`;
-// }
 
 for (i = 1; i <= numCells; i++) {
     let sText = i;
