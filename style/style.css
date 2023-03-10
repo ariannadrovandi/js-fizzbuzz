@@ -1,0 +1,17 @@
+#a4d8ff
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #077283;
+}
+
+#chessboard{
+    width: 600px;
+    height: 600px;
+    background-color:#04505c ;
+
+}
+
+
+
