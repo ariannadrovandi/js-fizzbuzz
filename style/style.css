@@ -1,17 +1,64 @@
-#a4d8ff
+:root{
+    --fizz: #0CD6A1;
+    --buzz: #FFD166;
+    --fizzbuzz: #F0466F;
+    --background: #083B4C;
+    --bg-number: #1389B2;
+    --title: #FFFFFF;
+}
 
 .wrapper{
     width: 100%;
     height: 100vh;
-    background-color: #077283;
+    background-color: var(--background);
+}
+
+.ad-bg{
+    background-color: var(--background);
+}
+
+.ad-fs{
+    font-size: 11px;
 }
 
 #chessboard{
     width: 600px;
     height: 600px;
-    background-color:#04505c ;
+    background-color:var(--background) ;
 
 }
 
+.square{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
 
+.squarecontent{
+    background-color: var(--bg-number);
+    color: black;
+    width: 100%;
+    height: 100%;
+    
+}
 
+.fizz{
+    background-color: var(--fizz);
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.buzz{
+    background-color: var(--buzz);
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.fizzbuzz{
+    background-color: var(--fizzbuzz);
+    color: black;
+    width: 100%;
+    height: 100%;
+}
